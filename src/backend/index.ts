@@ -1,6 +1,6 @@
-import { blob, Canister, text, ic, None, Record, update } from 'azle';
+import { blob, Canister, text, ic, None, Record, update } from 'azle/experimental';
 import { Secp256k1PublicKey } from '@mysten/sui/keypairs/secp256k1';
-import { managementCanister } from 'azle/canisters/management';
+import { managementCanister } from 'azle/experimental/canisters/management';
 
 const Signature = Record({
     signature: blob
